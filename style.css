@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #6c81ea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.drake-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+main {
+    background-color: #7882ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #19100f;
+}
